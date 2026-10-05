@@ -2,6 +2,9 @@
 permalink: /
 title: ""
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
 <div class="portfolio-hero">
