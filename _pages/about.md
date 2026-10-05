@@ -24,9 +24,9 @@ My work includes quadruped robotics research, Formula SAE powertrain development
 </div>
 
 <div class="portfolio-buttons">
-<a class="portfolio-button primary" href="/projects/">View Projects</a>
-<a class="portfolio-button" href="/resume/">Resume</a>
-<a class="portfolio-button" href="https://github.com/CamdenNorris">GitHub</a>
+  <a class="portfolio-button primary" href="/projects/">View Projects</a>
+  <a class="portfolio-button" href="/resume/">Resume</a>
+  <a class="portfolio-button" href="https://github.com/CamdenNorris">GitHub</a>
 </div>
 
 </div>
@@ -46,9 +46,10 @@ Python • MuJoCo • Computer Vision • Gesture Recognition
 
 Research involving quadruped robot simulation, hand tracking, gesture classification, and development of validated human-robot interaction commands.
 
-<br><br>
-
-<a href="/projects/">View Project →</a>
+<div class="portfolio-buttons">
+  <a class="portfolio-button primary" href="/projects/#go1-quadruped-robotics">View Project</a>
+  <a class="portfolio-button" href="https://github.com/CamdenNorris">GitHub</a>
+</div>
 
 </div>
 </div>
@@ -62,11 +63,11 @@ Research involving quadruped robot simulation, hand tracking, gesture classifica
 SolidWorks • CAD • Simulation • Mechanical Design
 </div>
 
-Designed a multi-component mechanical assembly with custom parts, engineering drawings, material selection, and structural simulation.
+Designed and assembled a multi-component mechanical hand mixer in SolidWorks, including detailed engineering drawings, material selection, and structural analysis.
 
-<br><br>
-
-<a href="/projects/">View Project →</a>
+<div class="portfolio-buttons">
+  <a class="portfolio-button primary" href="/projects/#mechanical-hand-mixer">View Project</a>
+</div>
 
 </div>
 </div>
@@ -82,9 +83,9 @@ Automotive Engineering • Powertrain • Mechanical Design
 
 Powertrain Division work focused on applying automotive engineering principles to the design and development of a competition vehicle.
 
-<br><br>
-
-<a href="/projects/">View Project →</a>
+<div class="portfolio-buttons">
+  <a class="portfolio-button primary" href="/projects/#clemson-formula-sae">View Project</a>
+</div>
 
 </div>
 </div>
@@ -94,14 +95,14 @@ Powertrain Division work focused on applying automotive engineering principles t
 ## Technical Skills
 
 <div class="skill-list">
-<span class="skill-tag">SolidWorks</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">MuJoCo</span>
-<span class="skill-tag">Git</span>
-<span class="skill-tag">GitHub</span>
-<span class="skill-tag">Computer Vision</span>
-<span class="skill-tag">Mechanical Design</span>
-<span class="skill-tag">CAD</span>
-<span class="skill-tag">Simulation</span>
-<span class="skill-tag">Automotive Engineering</span>
+  <span class="skill-tag">SolidWorks</span>
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">MuJoCo</span>
+  <span class="skill-tag">Git</span>
+  <span class="skill-tag">GitHub</span>
+  <span class="skill-tag">Computer Vision</span>
+  <span class="skill-tag">Mechanical Design</span>
+  <span class="skill-tag">CAD</span>
+  <span class="skill-tag">Simulation</span>
+  <span class="skill-tag">Automotive Engineering</span>
 </div>
