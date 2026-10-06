@@ -57,8 +57,8 @@ Python • MuJoCo • Computer Vision • Gesture Recognition
 
 <div class="project-card">
 
-<img class="project-card-media"
-<source src="/assets/files/go1/go1-demo-web.mp4" type="video/mp4">alt="SolidWorks mechanical hand mixer assembly">
+<img class="project-card-media" src="/assets/images/hand-mixer/complete-assembly.jpg" alt="SolidWorks mechanical hand mixer assembly">
+
 <div class="project-card-content">
 
 <h3>Mechanical Hand Mixer</h3>
@@ -74,6 +74,7 @@ SolidWorks • CAD • Simulation • Mechanical Design
 </div>
 
 </div>
+
 </div>
 
 <div class="project-card">
