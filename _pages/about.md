@@ -96,7 +96,6 @@ Automotive Engineering • Powertrain • Mechanical Design
 </div>
 
 </div>
-</div>
 
 <h2>Technical Skills</h2>
 
