@@ -77,8 +77,7 @@ SolidWorks • CAD • Simulation • Mechanical Design
 
 <div class="project-card">
 
-<div class="project-placeholder">
-Clemson Formula SAE
+<img class="project-card-media" src="/assets/images/formula-sae/clemson-paw.jpg" alt="Clemson paw">Clemson Formula SAE
 </div>
 
 <div class="project-card-content">
