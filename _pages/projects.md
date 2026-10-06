@@ -8,9 +8,6 @@ Below are selected projects involving robotics, automotive engineering, mechanic
 
 ---
 
-<a id="go1-quadruped-robotics"></a>
-
-## GO1 Quadruped Robotics
 
 <a id="go1-quadruped-robotics"></a>
 
