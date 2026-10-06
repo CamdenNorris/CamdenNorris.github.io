@@ -33,11 +33,11 @@ The goal is to create a reliable perception pipeline that can interpret hand ges
 
 `STOP` `FORWARD` `BACKWARD` `LEFT` `RIGHT`
 
-### Demo
+<h3>Demo</h3>
 
-<video controls style="width:100%; max-width:900px; border-radius:14px;">
-  <source src="{{ '/assets/files/go1/test.mp4' | relative_url }}" type="video/mp4">
-  Your browser does not support the video tag.
+<video controls preload="metadata" style="width:100%; max-width:900px; border-radius:14px;">
+  <source src="/assets/files/go1/test.mp4" type="video/mp4">
+  Your browser does not support embedded video.
 </video>
 
 ### Technical Focus
