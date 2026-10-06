@@ -1,4 +1,3 @@
-
 ---
 ---
 
@@ -13,6 +12,8 @@
   font-size: 1.02rem;
   line-height: 1.7;
 }
+
+/* HERO */
 
 .portfolio-hero {
   padding: 2rem 0 2.5rem;
@@ -33,6 +34,8 @@
   max-width: 760px;
   font-size: 1.08rem;
 }
+
+/* BUTTONS */
 
 .portfolio-buttons {
   margin-top: 1.5rem;
@@ -59,12 +62,14 @@
 
 .portfolio-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
+
+/* PROJECT GRID */
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
   margin: 1.5rem 0 2.5rem;
 }
@@ -79,14 +84,7 @@
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.10);
-}
-
-.project-card img {
-  width: 100%;
-  height: 230px;
-  object-fit: cover;
-  display: block;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.10);
 }
 
 .project-card-content {
@@ -98,11 +96,39 @@
   margin-bottom: 0.35rem;
 }
 
+.project-card p {
+  margin-bottom: 1rem;
+}
+
 .project-tags {
   font-size: 0.9rem;
   color: var(--global-text-color-light);
   margin-bottom: 0.8rem;
 }
+
+/* PROJECT MEDIA */
+
+.project-card-media {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+  background: #111;
+}
+
+.project-placeholder {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background: #f3f3f3;
+  color: #555;
+}
+
+/* SKILLS */
 
 .skill-list {
   display: flex;
@@ -118,46 +144,47 @@
   font-size: 0.9rem;
 }
 
-@media (max-width: 768px) {
+/* ENGINEERING ANALYSIS */
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.analysis-grid img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--global-border-color);
+}
+
+.analysis-grid p {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* TABLET */
+
+@media (max-width: 1100px) {
   .project-grid {
     grid-template-columns: 1fr;
   }
+}
 
+/* MOBILE */
+
+@media (max-width: 768px) {
   .portfolio-hero h1 {
     font-size: 2.25rem;
   }
 
-  .project-card img {
-    height: auto;
-  }
-}
-
-.project-card-media {
-  width: 100%;
-  height: 230px;
-  object-fit: cover;
-  display: block;
-}
-
-.project-placeholder {
-  height: 230px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.8rem;
-  font-weight: 700;
-  background: #f3f3f3;
-  color: #555;
-}
-
-.project-card p {
-  margin-bottom: 1rem;
-}
-
-@media (max-width: 768px) {
   .project-card-media,
   .project-placeholder {
-    height: auto;
-    min-height: 180px;
+    height: 200px;
+  }
+
+  .analysis-grid {
+    grid-template-columns: 1fr;
   }
 }
