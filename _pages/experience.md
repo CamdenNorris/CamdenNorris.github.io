@@ -75,7 +75,7 @@ View Project
 <h3>Haraz Coffee House</h3>
 
 <div class="experience-meta">
-Shift Lead • May 2026 – Present
+Shift Lead • May 2026 – August 2026
 </div>
 
 <p>
