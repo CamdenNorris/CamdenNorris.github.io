@@ -34,9 +34,7 @@ Automotive Engineering • Robotics • Mechanical Design
 
 <div class="project-card">
 
-<video class="project-card-media" autoplay muted loop playsinline preload="metadata">
-<source src="/assets/files/go1/go1-demo-v2.mp4" type="video/mp4">
-</video>
+<img class="project-card-media" src="/assets/files/go1/go1-robot.jpg" alt="GO1 quadruped robot">
 
 <div class="project-card-content">
 
