@@ -8,6 +8,8 @@ Below are selected projects involving robotics, automotive engineering, mechanic
 
 ---
 
+<a id="go1-quadruped-robotics"></a>
+
 ## GO1 Quadruped Robotics
 
 **Python • MuJoCo • Computer Vision • Gesture Recognition**
@@ -25,9 +27,13 @@ My work has included:
 
 The project is progressing toward using validated gestures such as `STOP`, `FORWARD`, `BACKWARD`, `LEFT`, and `RIGHT` as inputs for robot interaction.
 
-[View GitHub](https://github.com/CamdenNorris)
+<div class="portfolio-buttons">
+  <a class="portfolio-button primary" href="https://github.com/CamdenNorris">View GitHub</a>
+</div>
 
 ---
+
+<a id="mechanical-hand-mixer"></a>
 
 ## Mechanical Hand Mixer Design
 
@@ -35,46 +41,61 @@ The project is progressing toward using validated gestures such as `STOP`, `FORW
 
 Designed and assembled a multi-component mechanical hand mixer in SolidWorks.
 
-The assembly includes a custom beater base, crank, beaters, gears, crank handle, pins, and other mechanical components. The project included individual part modeling, assembly design, material selection, and detailed engineering drawings.
+The project included:
 
-The complete assembly contains eight modeled components, including chrome stainless steel and Nylon 6/10 parts. :chatgpt-content-reference{index="0"}
-
-### Engineering Analysis
-
-I also performed structural analysis on the crank using SolidWorks simulation tools.
-
-Project deliverables included:
-
-- Complete SolidWorks assembly
-- Individual component models
-- Detailed dimensioned drawings
-- Assembly drawing and bill of materials
-- von Mises stress analysis
+- Individual part modeling
+- Assembly design
+- Gear and crank mechanism design
+- Engineering drawings
+- Material selection
+- Stress analysis
 - Displacement analysis
 - Mechanical motion demonstration
 
-The beater base and crank were both documented with detailed engineering drawings and specified as chrome stainless steel. :chatgpt-content-reference{index="1"} :chatgpt-content-reference{index="2"}
+The assembly includes a beater base, handles, crank, beaters, gears, crank handle attachment, main gear, and pins.
+
+### Engineering Analysis
+
+I used SolidWorks simulation tools to evaluate the crank and review both von Mises stress and displacement results.
+
+### Project Media
+
+Once the files are uploaded to your repository, we can place the assembly render, demo video, stress plot, displacement plot, and technical drawings directly here.
 
 ---
+
+<a id="clemson-formula-sae"></a>
 
 ## Clemson Formula SAE
 
 **Automotive Engineering • Powertrain • Mechanical Design**
 
-I am a member of the Clemson Formula SAE Design Team within the Powertrain Division. :chatgpt-content-reference{index="3"}
+I am involved with Clemson Formula SAE through the Powertrain Division.
 
-Formula SAE provides an opportunity to apply automotive engineering principles to the development of a competition vehicle while working as part of a multidisciplinary engineering team.
-
-My involvement gives me experience with:
+My experience includes exposure to:
 
 - Automotive powertrain systems
 - Mechanical design
+- Vehicle development
 - Engineering collaboration
 - Design evaluation
-- Vehicle development
+- Team-based problem solving
+
+Formula SAE gives me the opportunity to apply automotive engineering principles to the development of a competition vehicle.
 
 ---
 
-## Skills Used Across Projects
+## Technical Skills
 
-`SolidWorks` `Python` `MuJoCo` `Git` `GitHub` `Computer Vision` `Mechanical Design` `CAD` `Simulation` `Automotive Engineering`
+<div class="skill-list">
+  <span class="skill-tag">SolidWorks</span>
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">MuJoCo</span>
+  <span class="skill-tag">Git</span>
+  <span class="skill-tag">GitHub</span>
+  <span class="skill-tag">Computer Vision</span>
+  <span class="skill-tag">Mechanical Design</span>
+  <span class="skill-tag">CAD</span>
+  <span class="skill-tag">Simulation</span>
+  <span class="skill-tag">Automotive Engineering</span>
+</div>
