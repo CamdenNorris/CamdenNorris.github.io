@@ -12,9 +12,13 @@ Below are selected projects involving robotics, automotive engineering, mechanic
 
 ## GO1 Quadruped Robotics
 
+<a id="go1-quadruped-robotics"></a>
+
+## GO1 Quadruped Robotics
+
 **Python • MuJoCo • Computer Vision • Gesture Recognition**
 
-I am working on quadruped robotics research involving simulation, perception, and human-robot interaction.
+I am working on quadruped robotics research focused on simulation, perception, and human-robot interaction.
 
 My work has included:
 
@@ -24,16 +28,35 @@ My work has included:
 - Gesture classification and confidence validation
 - Separating raw perception output from validated robot intent
 - Testing across different users, lighting conditions, and hand positions
+- Using Git and GitHub for collaborative development and version control
 
-The project is progressing toward using validated gestures such as `STOP`, `FORWARD`, `BACKWARD`, `LEFT`, and `RIGHT` as inputs for robot interaction.
+### Project Goal
 
-<div class="portfolio-buttons">
-  <a class="portfolio-button primary" href="https://github.com/CamdenNorris">View GitHub</a>
+The goal is to create a reliable perception pipeline that can interpret hand gestures and convert them into validated robot commands such as:
+
+`STOP` `FORWARD` `BACKWARD` `LEFT` `RIGHT`
+
+### Demo
+
+<video
+  width="100%"
+  controls
+  style="border-radius:14px; margin:1rem 0 1.5rem;"
+>
+  <source src="/assets/files/go1/test.mp4" type="video/mp4">
+  Your browser does not support embedded video.
+</video>
+
+### Technical Focus
+
+<div class="skill-list">
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">MuJoCo</span>
+  <span class="skill-tag">Computer Vision</span>
+  <span class="skill-tag">Gesture Recognition</span>
+  <span class="skill-tag">Git</span>
+  <span class="skill-tag">GitHub</span>
 </div>
-
----
-
-<a id="mechanical-hand-mixer"></a>
 
 ## Mechanical Hand Mixer Design
 
