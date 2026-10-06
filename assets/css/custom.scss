@@ -246,21 +246,76 @@
     grid-template-columns: 1fr;
   }
 }
-/* FORCE DARK GREY BACKGROUND ON MOBILE */
+/* MOBILE DARK MODE */
 
 @media (max-width: 768px) {
 
   html,
-  body {
-    background-color: #4a4a4a !important;
-  }
-
   body,
   .page,
   .page__inner-wrap,
   .archive,
   .sidebar {
     background-color: #4a4a4a !important;
+    color: #ffffff !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li,
+  strong,
+  span {
+    color: #ffffff !important;
+  }
+
+  .portfolio-subtitle,
+  .project-tags,
+  .experience-meta {
+    color: #d6d6d6 !important;
+  }
+
+  .project-card,
+  .experience-card,
+  .contact-card {
+    background-color: #3d3d3d !important;
+    border-color: #666666 !important;
+    color: #ffffff !important;
+  }
+
+  .skill-tag {
+    color: #ffffff !important;
+    border-color: #888888 !important;
+    background-color: #3d3d3d !important;
+  }
+
+  .portfolio-button {
+    color: #ffffff !important;
+    border-color: #888888 !important;
+    background-color: #3d3d3d !important;
+  }
+
+  .portfolio-button.primary {
+    background-color: #f56600 !important;
+    border-color: #f56600 !important;
+    color: #ffffff !important;
+  }
+
+  a {
+    color: #ff8a33;
+  }
+
+  a:hover {
+    color: #ffb27a;
+  }
+
+  .project-placeholder {
+    background-color: #3d3d3d !important;
+    color: #ffffff !important;
   }
 
 }
