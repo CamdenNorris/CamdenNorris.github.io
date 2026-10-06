@@ -15,9 +15,11 @@ Automotive Engineering • Robotics • Mechanical Design
 </div>
 
 <div class="portfolio-intro">
+
 <p>I am an Automotive Engineering student at Clemson University with an Engineering Leadership minor. My interests include robotics, automotive systems, mechanical design, computer vision, and intelligent machines.</p>
 
 <p>My work includes quadruped robotics research, Clemson Formula SAE Powertrain, mechanical CAD and simulation, and computer vision based gesture recognition.</p>
+
 </div>
 
 <div class="portfolio-buttons">
@@ -28,9 +30,11 @@ Automotive Engineering • Robotics • Mechanical Design
 
 </div>
 
+
 <h2>Featured Projects</h2>
 
 <div class="project-grid">
+
 
 <div class="project-card">
 
@@ -51,7 +55,9 @@ Python • MuJoCo • Computer Vision • Gesture Recognition
 </div>
 
 </div>
+
 </div>
+
 
 <div class="project-card">
 
@@ -75,6 +81,7 @@ SolidWorks • CAD • Simulation • Mechanical Design
 
 </div>
 
+
 <div class="project-card">
 
 <img class="project-card-media" src="/assets/images/formula-sae/clemson-paw.jpg" alt="Clemson Formula SAE">
@@ -97,6 +104,10 @@ Automotive Engineering • Powertrain • Mechanical Design
 
 </div>
 
+
+</div>
+
+
 <h2>Technical Skills</h2>
 
 <div class="skill-list">
@@ -111,6 +122,7 @@ Automotive Engineering • Powertrain • Mechanical Design
 <span class="skill-tag">Simulation</span>
 <span class="skill-tag">Automotive Engineering</span>
 </div>
+
 
 <h2>Current Focus</h2>
 
