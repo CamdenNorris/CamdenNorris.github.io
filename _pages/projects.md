@@ -51,6 +51,8 @@ The goal is to create a reliable perception pipeline that can interpret hand ges
   <span class="skill-tag">GitHub</span>
 </div>
 
+---
+
 ## Mechanical Hand Mixer Design
 
 **SolidWorks • CAD • Mechanical Design • Simulation**
