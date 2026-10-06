@@ -348,3 +348,132 @@
     color: #ffffff !important;
   }
 }
+/* CONSISTENT SITE THEME */
+
+html,
+body {
+  background: #4a4a4a !important;
+  color: #ffffff !important;
+  color-scheme: dark;
+  -webkit-text-size-adjust: 100%;
+}
+
+.page,
+.page__inner-wrap,
+.archive,
+.sidebar {
+  background: #4a4a4a !important;
+  color: #ffffff !important;
+}
+
+/* Main text */
+
+.page__content,
+.page__content p,
+.page__content li,
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5,
+.page__content h6,
+.portfolio-hero h1,
+.portfolio-intro,
+.portfolio-intro p {
+  color: #ffffff !important;
+}
+
+/* Secondary text */
+
+.portfolio-subtitle,
+.project-tags,
+.experience-meta {
+  color: #e0e0e0 !important;
+}
+
+/* Sidebar */
+
+.author__content,
+.author__content p,
+.author__name,
+.author__bio,
+.author__urls,
+.author__urls li,
+.author__urls a,
+.sidebar p {
+  color: #ffffff !important;
+}
+
+/* Cards */
+
+.project-card,
+.experience-card,
+.contact-card {
+  background: #3d3d3d !important;
+  border-color: #707070 !important;
+  color: #ffffff !important;
+}
+
+.project-card h3,
+.project-card p,
+.experience-card h3,
+.experience-card p,
+.contact-card h3,
+.contact-card p {
+  color: #ffffff !important;
+}
+
+/* Skills */
+
+.skill-tag {
+  background: #3d3d3d !important;
+  border-color: #888888 !important;
+  color: #ffffff !important;
+}
+
+/* Buttons */
+
+.portfolio-button {
+  background: #4a4a4a !important;
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+.portfolio-button.primary {
+  background: #f56600 !important;
+  border-color: #f56600 !important;
+  color: #ffffff !important;
+}
+
+/* Links */
+
+.page__content a:not(.portfolio-button),
+.sidebar a {
+  color: #ff8a33 !important;
+}
+
+.page__content a:not(.portfolio-button):hover,
+.sidebar a:hover {
+  color: #ffb27a !important;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .portfolio-hero h1 {
+    font-size: 2.25rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card-media {
+    height: 220px;
+  }
+
+  .analysis-grid {
+    grid-template-columns: 1fr;
+  }
+}
