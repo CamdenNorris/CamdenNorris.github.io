@@ -19,7 +19,7 @@ repository: "CamdenNorris/CamdenNorris.github.io"
 # These settings control the profile shown in the left sidebar.
 
 author:
-  avatar: "profile.jpg"
+  avatar: "profile1.png"
   name: "Camden Norris"
   pronouns:
   bio: "Automotive Engineering student at Clemson University focused on robotics, mechanical design, automotive systems, and intelligent machines."
