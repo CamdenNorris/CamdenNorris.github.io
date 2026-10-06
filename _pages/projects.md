@@ -39,20 +39,81 @@ The project is progressing toward using validated gestures such as `STOP`, `FORW
 
 **SolidWorks • CAD • Mechanical Design • Simulation**
 
-Designed and assembled a multi-component mechanical hand mixer in SolidWorks.
+<img
+  src="/assets/images/hand-mixer/complete-assembly.jpg"
+  alt="SolidWorks mechanical hand mixer assembly"
+  style="width:100%; border-radius:14px; margin:1rem 0 1.5rem;"
+>
 
-The project included:
+Designed and assembled a multi-component mechanical hand mixer in SolidWorks. The project involved individual component modeling, assembly design, mechanical motion, technical drawings, material selection, and structural analysis.
 
-- Individual part modeling
-- Assembly design
-- Gear and crank mechanism design
-- Engineering drawings
-- Material selection
-- Stress analysis
-- Displacement analysis
-- Mechanical motion demonstration
+### Project Highlights
 
-The assembly includes a beater base, handles, crank, beaters, gears, crank handle attachment, main gear, and pins.
+- Modeled individual mechanical components in SolidWorks
+- Created the complete mechanical assembly
+- Developed the crank and gear mechanism
+- Produced dimensioned engineering drawings
+- Selected materials for individual components
+- Evaluated von Mises stress
+- Evaluated displacement
+- Created a mechanical motion demonstration
+
+### Assembly Demo
+
+<video
+  width="100%"
+  controls
+  style="border-radius:14px; margin:1rem 0 1.5rem;"
+>
+  <source src="/assets/files/hand-mixer/complete-assembly.mp4" type="video/mp4">
+  Your browser does not support embedded video.
+</video>
+
+### Engineering Analysis
+
+<div class="analysis-grid">
+
+  <div>
+    <img
+      src="/assets/images/hand-mixer/stress-plot.jpg"
+      alt="SolidWorks von Mises stress analysis"
+    >
+    <p><strong>Von Mises Stress</strong></p>
+  </div>
+
+  <div>
+    <img
+      src="/assets/images/hand-mixer/displacement-plot.jpg"
+      alt="SolidWorks displacement analysis"
+    >
+    <p><strong>Displacement</strong></p>
+  </div>
+
+</div>
+
+### Technical Drawings
+
+<div class="portfolio-buttons">
+
+  <a class="portfolio-button primary"
+     href="/assets/files/hand-mixer/complete-assembly.pdf"
+     target="_blank">
+     Assembly Drawing
+  </a>
+
+  <a class="portfolio-button"
+     href="/assets/files/hand-mixer/beater-base.pdf"
+     target="_blank">
+     Beater Base Drawing
+  </a>
+
+  <a class="portfolio-button"
+     href="/assets/files/hand-mixer/crank.pdf"
+     target="_blank">
+     Crank Drawing
+  </a>
+
+</div>
 
 ### Engineering Analysis
 
