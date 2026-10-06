@@ -1,157 +1,199 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
-
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title: "Camden Norris"
-name: "Camden Norris"
 
-description: "Automotive Engineering student at Clemson University focused on robotics, mechanical design, automotive systems, and intelligent machines."
+locale: "en-US"
+site_theme: "default"
+
+title: "Camden Norris"
+title_separator: "|"
+name: &name "Camden Norris"
+
+description: &description "Automotive Engineering student at Clemson University focused on robotics, mechanical design, automotive systems, and intelligent machines."
 
 url: "https://camdennorris.github.io"
 baseurl: ""
 
 repository: "CamdenNorris/CamdenNorris.github.io"
 
+
+# Site Author
+# These settings control the profile shown in the left sidebar.
+
 author:
   avatar: "profile.jpg"
   name: "Camden Norris"
-  bio: "Automotive Engineering student at Clemson University interested in robotics, automotive systems, mechanical design, and intelligent machines."
+  pronouns:
+  bio: "Automotive Engineering student at Clemson University focused on robotics, mechanical design, automotive systems, and intelligent machines."
   location: "Clemson, SC"
   employer: "Clemson University"
+  uri:
   email: "Camdenjn@icloud.com"
-  github: "CamdenNorris"
-  
-  # Academic websites
-github: "CamdenNorris"
 
-bluesky:
-linkedin: "Camden Norris"
+  # Academic websites
+  academia:
+  arxiv:
+  googlescholar:
+  inspire-hep:
+  impactstory:
+  orcid:
+  semantic:
+  ssrn:
+  pubmed:
+  researchgate:
+  scopus:
+  zotero:
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  bitbucket:
+  codepen:
+  dribbble:
+  github: "CamdenNorris"
+  kaggle:
+  stackoverflow:
 
   # Social media
-  artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  artstation:
+  bluesky:
+  facebook:
+  flickr:
+  foursquare:
+  goodreads:
+  google_plus:
+  keybase:
+  instagram:
+  lastfm:
+  linkedin:
+  mastodon:
+  medium:
+  pinterest:
+  soundcloud:
+  steam:
+  telegram:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  wikipedia:
+  xing:
+  youtube:
+  zhihu:
 
-# Publication Category - The following the list of publication categories and their headings
+
+# Publication Categories
+# These can stay even if you are not currently using publications.
+
 publication_category:
   books:
-    title: 'Books'
+    title: "Books"
   manuscripts:
-    title: 'Journal Articles'    
+    title: "Journal Articles"
   conferences:
-    title: 'Conference Papers'
+    title: "Conference Papers"
+
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+
+
+# Comments
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider:
   disqus:
-    shortname            :
+    shortname:
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server:
   facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid:
+    num_posts:
+    colorscheme:
+
+
+# Staticman
+
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields:
+    - name
+    - email
+    - url
+    - message
+  branch: "master"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields:
+    - name
+    - email
+    - message
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format: "iso8601"
+
+
+# RSS Feed
+
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide: false
+  path:
 
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+# SEO
+
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
 
 # Social Sharing
+
 twitter:
-  username               : &twitter
+  username:
+
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
+  username:
+  app_id:
+  publisher:
+
+og_image:
+og_description: "Automotive Engineering, robotics, mechanical design, and project portfolio of Camden Norris."
+
+
+# Structured Social Profile
+
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type: "Person"
+  name: "Camden Norris"
+  links:
+    - "https://github.com/CamdenNorris"
 
 
 # Analytics
+
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider: "false"
   google:
-    tracking_id          :
+    tracking_id:
 
 
 # Reading Files
+
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -179,14 +221,17 @@ exclude:
   - README
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
+
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -195,6 +240,7 @@ incremental: false
 
 
 # Markdown Processing
+
 kramdown:
   input: GFM
   hard_wrap: false
@@ -206,25 +252,31 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
+# Collections
+
 collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+
   publications:
     output: true
     permalink: /:collection/:path/
+
   portfolio:
     output: true
     permalink: /:collection/:path/
+
   talks:
     output: true
     permalink: /:collection/:path/
 
 
-# These settings control how pages and collections are included in the site
+# Defaults
+
 defaults:
-  # _posts
+
+  # Posts
   - scope:
       path: ""
       type: posts
@@ -235,14 +287,16 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+
+  # Pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+
+  # Teaching
   - scope:
       path: ""
       type: teaching
@@ -251,7 +305,8 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+
+  # Publications
   - scope:
       path: ""
       type: publications
@@ -260,7 +315,8 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+
+  # Portfolio
   - scope:
       path: ""
       type: portfolio
@@ -269,7 +325,8 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+
+  # Talks
   - scope:
       path: ""
       type: talks
@@ -279,20 +336,22 @@ defaults:
       share: true
 
 
-# Sass/SCSS
+# Sass / SCSS
+
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
 
-# Outputting
+# Output
+
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+timezone: America/New_York
 
 
 # Plugins
+
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -301,7 +360,9 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# Mimic GitHub Pages with --safe
+
+# GitHub Pages Safe Plugins
+
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -312,36 +373,18 @@ whitelist:
 
 
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
+
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
 
 # HTML Compression
-# - https://jch.penibelst.de/
+
 compress_html:
   clippings: all
   ignore:
