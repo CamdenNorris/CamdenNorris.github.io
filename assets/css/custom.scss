@@ -188,3 +188,30 @@
     grid-template-columns: 1fr;
   }
 }
+/* EXPERIENCE */
+
+.experience-card {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  background: var(--global-bg-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.experience-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.experience-meta {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
+  font-weight: 600;
+}
