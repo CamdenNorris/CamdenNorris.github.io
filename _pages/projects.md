@@ -35,7 +35,7 @@ The goal is to create a reliable perception pipeline that can interpret hand ges
 
 <h3>Demo</h3>
 
-<video controls preload="metadata" style="width:100%; max-width:900px; border-radius:14px;">
+<video controls preload="metadata" style="width:400%; max-width:900px; border-radius:14px;">
   <source src="/assets/files/go1/test.mp4" type="video/mp4">
   Your browser does not support embedded video.
 </video>
