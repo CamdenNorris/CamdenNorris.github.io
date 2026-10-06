@@ -26,10 +26,6 @@ My work has included:
 - Separating raw perception output from validated robot intent
 - Testing across different users, lighting conditions, and hand positions
 - Using Git and GitHub for collaborative development and version control
-
-<img src="/assets/files/go1/go1-robot.jpg"
-     alt="GO1 quadruped robot"
-     style="width:100%; border-radius:14px; margin:1rem 0 1.5rem;">
      
 ### Project Goal
 
