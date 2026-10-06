@@ -77,8 +77,7 @@ SolidWorks • CAD • Simulation • Mechanical Design
 
 <div class="project-card">
 
-<img class="project-card-media" src="/assets/images/formula-sae/clemson-paw.jpg" alt="Clemson paw">Clemson Formula SAE
-</div>
+<img class="project-card-media" src="/assets/images/formula-sae/clemson-paw.jpg" alt="Clemson Formula SAE">
 
 <div class="project-card-content">
 
@@ -88,15 +87,15 @@ SolidWorks • CAD • Simulation • Mechanical Design
 Automotive Engineering • Powertrain • Mechanical Design
 </div>
 
-<p>Member of Clemson Formula SAE's Powertrain Division, gaining hands-on experience with automotive systems, engineering design, vehicle development, and collaborative problem solving.</p>
+<p>Member of Clemson Formula SAE's Powertrain Division, gaining hands-on experience with automotive systems, mechanical design, vehicle development, and collaborative engineering problem solving.</p>
 
 <div class="portfolio-buttons">
 <a class="portfolio-button primary" href="/projects/#clemson-formula-sae">View Project</a>
 </div>
 
 </div>
-</div>
 
+</div>
 </div>
 
 <h2>Technical Skills</h2>
