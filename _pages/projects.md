@@ -115,14 +115,6 @@ Designed and assembled a multi-component mechanical hand mixer in SolidWorks. Th
 
 </div>
 
-### Engineering Analysis
-
-I used SolidWorks simulation tools to evaluate the crank and review both von Mises stress and displacement results.
-
-### Project Media
-
-Once the files are uploaded to your repository, we can place the assembly render, demo video, stress plot, displacement plot, and technical drawings directly here.
-
 ---
 
 <a id="clemson-formula-sae"></a>
