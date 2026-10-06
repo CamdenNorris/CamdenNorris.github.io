@@ -38,13 +38,9 @@ The goal is to create a reliable perception pipeline that can interpret hand ges
 
 ### Demo
 
-<video
-  width="100%"
-  controls
-  style="border-radius:14px; margin:1rem 0 1.5rem;"
->
-  <source src="/assets/files/go1/test.mp4" type="video/mp4">
-  Your browser does not support embedded video.
+<video controls style="width:100%; max-width:900px; border-radius:14px;">
+  <source src="{{ '/assets/files/go1/test.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 ### Technical Focus
