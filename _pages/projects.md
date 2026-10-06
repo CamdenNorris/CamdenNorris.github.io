@@ -39,11 +39,9 @@ The project is progressing toward using validated gestures such as `STOP`, `FORW
 
 **SolidWorks • CAD • Mechanical Design • Simulation**
 
-<img
-  src="/assets/images/hand-mixer/complete-assembly.jpg"
-  alt="SolidWorks mechanical hand mixer assembly"
-  style="width:100%; border-radius:14px; margin:1rem 0 1.5rem;"
->
+<img src="/assets/images/hand-mixer/complete-assembly.jpg"
+     alt="SolidWorks mechanical hand mixer assembly"
+     style="width:100%; border-radius:14px; margin:1rem 0 1.5rem;">
 
 Designed and assembled a multi-component mechanical hand mixer in SolidWorks. The project involved individual component modeling, assembly design, mechanical motion, technical drawings, material selection, and structural analysis.
 
