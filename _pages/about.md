@@ -35,74 +35,94 @@ My work includes quadruped robotics research, Formula SAE powertrain development
 
 <div class="project-grid">
 
-<div class="project-card">
-<div class="project-card-content">
+  <div class="project-card">
 
-<h3>GO1 Quadruped Robotics</h3>
+    <video autoplay muted loop playsinline preload="metadata"
+           class="project-card-media">
+      <source src="/assets/files/go1/go1-demo-v2.mp4" type="video/mp4">
+    </video>
 
-<div class="project-tags">
-Python • MuJoCo • Computer Vision • Gesture Recognition
-</div>
+    <div class="project-card-content">
 
-Research involving quadruped robot simulation, hand tracking, gesture classification, and development of validated human-robot interaction commands.
+      <h3>GO1 Quadruped Robotics</h3>
 
-<div class="portfolio-buttons">
-  <a class="portfolio-button primary" href="/projects/#go1-quadruped-robotics">View Project</a>
-  <a class="portfolio-button" href="https://github.com/CamdenNorris">GitHub</a>
-</div>
+      <div class="project-tags">
+        Python • MuJoCo • Computer Vision • Gesture Recognition
+      </div>
 
-</div>
-</div>
+      <p>
+        Developing perception and gesture recognition systems for quadruped
+        robot interaction using MuJoCo simulation and computer vision.
+      </p>
 
-<div class="project-card">
-<div class="project-card-content">
+      <div class="portfolio-buttons">
+        <a class="portfolio-button primary"
+           href="/projects/#go1-quadruped-robotics">
+          View Project
+        </a>
+      </div>
 
-<h3>Mechanical Hand Mixer</h3>
+    </div>
+  </div>
 
-<div class="project-tags">
-SolidWorks • CAD • Simulation • Mechanical Design
-</div>
 
-Designed and assembled a multi-component mechanical hand mixer in SolidWorks, including detailed engineering drawings, material selection, and structural analysis.
+  <div class="project-card">
 
-<div class="portfolio-buttons">
-  <a class="portfolio-button primary" href="/projects/#mechanical-hand-mixer">View Project</a>
-</div>
+    <img src="/assets/images/hand-mixer/complete-assembly.jpg"
+         class="project-card-media"
+         alt="SolidWorks mechanical hand mixer assembly">
 
-</div>
-</div>
+    <div class="project-card-content">
 
-<div class="project-card">
-<div class="project-card-content">
+      <h3>Mechanical Hand Mixer</h3>
 
-<h3>Clemson Formula SAE</h3>
+      <div class="project-tags">
+        SolidWorks • CAD • Simulation • Mechanical Design
+      </div>
 
-<div class="project-tags">
-Automotive Engineering • Powertrain • Mechanical Design
-</div>
+      <p>
+        Designed and assembled a multi-component mechanical system including
+        custom components, engineering drawings, and structural analysis.
+      </p>
 
-Powertrain Division work focused on applying automotive engineering principles to the design and development of a competition vehicle.
+      <div class="portfolio-buttons">
+        <a class="portfolio-button primary"
+           href="/projects/#mechanical-hand-mixer">
+          View Project
+        </a>
+      </div>
 
-<div class="portfolio-buttons">
-  <a class="portfolio-button primary" href="/projects/#clemson-formula-sae">View Project</a>
-</div>
+    </div>
+  </div>
 
-</div>
-</div>
 
-</div>
+  <div class="project-card">
 
-## Technical Skills
+    <div class="project-placeholder">
+      Formula SAE
+    </div>
 
-<div class="skill-list">
-  <span class="skill-tag">SolidWorks</span>
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">MuJoCo</span>
-  <span class="skill-tag">Git</span>
-  <span class="skill-tag">GitHub</span>
-  <span class="skill-tag">Computer Vision</span>
-  <span class="skill-tag">Mechanical Design</span>
-  <span class="skill-tag">CAD</span>
-  <span class="skill-tag">Simulation</span>
-  <span class="skill-tag">Automotive Engineering</span>
+    <div class="project-card-content">
+
+      <h3>Clemson Formula SAE</h3>
+
+      <div class="project-tags">
+        Automotive Engineering • Powertrain • Mechanical Design
+      </div>
+
+      <p>
+        Powertrain Division work applying automotive engineering principles
+        to the development of Clemson's Formula SAE competition vehicle.
+      </p>
+
+      <div class="portfolio-buttons">
+        <a class="portfolio-button primary"
+           href="/projects/#clemson-formula-sae">
+          View Project
+        </a>
+      </div>
+
+    </div>
+  </div>
+
 </div>
