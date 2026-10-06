@@ -21,12 +21,11 @@ repository: "CamdenNorris/CamdenNorris.github.io"
 author:
   avatar: "profile1.png"
   name: "Camden Norris"
-  pronouns:
   bio: "Automotive Engineering student at Clemson University focused on robotics, mechanical design, automotive systems, and intelligent machines."
   location: "Clemson, SC"
   employer: "Clemson University"
-  uri:
-  email: "Camdenjn@icloud.com"
+  email: "Cjnorri@clemson.edu"
+  github: "CamdenNorris"
 
   # Academic websites
   academia:
