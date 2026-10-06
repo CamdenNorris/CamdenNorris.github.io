@@ -256,66 +256,95 @@
   .page__inner-wrap,
   .archive,
   .sidebar {
-    background-color: #4a4a4a !important;
+    background: #4a4a4a !important;
     color: #ffffff !important;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  li,
-  strong,
-  span {
+  /* Main page text */
+  .page__content,
+  .page__content p,
+  .page__content li,
+  .page__content h1,
+  .page__content h2,
+  .page__content h3,
+  .page__content h4,
+  .page__content h5,
+  .page__content h6,
+  .portfolio-hero h1,
+  .portfolio-intro,
+  .portfolio-intro p {
     color: #ffffff !important;
   }
 
+  /* Subtitle and secondary text */
   .portfolio-subtitle,
   .project-tags,
   .experience-meta {
-    color: #d6d6d6 !important;
+    color: #e0e0e0 !important;
   }
 
+  /* Sidebar profile */
+  .author__content,
+  .author__content p,
+  .author__name,
+  .author__bio,
+  .author__urls,
+  .author__urls li,
+  .author__urls a,
+  .sidebar p,
+  .sidebar a {
+    color: #ffffff !important;
+  }
+
+  /* Project / experience / contact cards */
   .project-card,
   .experience-card,
   .contact-card {
-    background-color: #3d3d3d !important;
-    border-color: #666666 !important;
+    background: #3d3d3d !important;
+    border-color: #707070 !important;
     color: #ffffff !important;
   }
 
+  .project-card h3,
+  .project-card p,
+  .experience-card h3,
+  .experience-card p,
+  .contact-card h3,
+  .contact-card p {
+    color: #ffffff !important;
+  }
+
+  /* Skill bubbles */
   .skill-tag {
-    color: #ffffff !important;
+    background: #3d3d3d !important;
     border-color: #888888 !important;
-    background-color: #3d3d3d !important;
+    color: #ffffff !important;
   }
 
+  /* Normal buttons */
   .portfolio-button {
+    background: #4a4a4a !important;
+    border-color: #ffffff !important;
     color: #ffffff !important;
-    border-color: #888888 !important;
-    background-color: #3d3d3d !important;
   }
 
+  /* Orange primary buttons */
   .portfolio-button.primary {
-    background-color: #f56600 !important;
+    background: #f56600 !important;
     border-color: #f56600 !important;
     color: #ffffff !important;
   }
 
-  a {
-    color: #ff8a33;
+  /* Normal links */
+  .page__content a:not(.portfolio-button),
+  .sidebar a {
+    color: #ff8a33 !important;
   }
 
-  a:hover {
-    color: #ffb27a;
-  }
-
-  .project-placeholder {
-    background-color: #3d3d3d !important;
+  /* Mobile profile Follow button */
+  .author__urls-wrapper button {
+    background: #3d3d3d !important;
+    border-color: #ffffff !important;
     color: #ffffff !important;
   }
-
 }
