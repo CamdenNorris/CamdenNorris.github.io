@@ -13,7 +13,7 @@ author_profile: true
 
 <h3>Email</h3>
 
-<p>cjnorri@clemson.edu</p>
+<p>For professional, academic, internship, or project inquiries.</p>
 
 <div class="portfolio-buttons">
 <a class="portfolio-button primary"
@@ -49,6 +49,7 @@ View GitHub
 <p>View or download my current engineering resume.</p>
 
 <div class="portfolio-buttons">
+
 <a class="portfolio-button primary"
 href="/assets/files/resume/camden-norris-resume.pdf"
 target="_blank">
@@ -60,6 +61,7 @@ href="/assets/files/resume/camden-norris-resume.pdf"
 download>
 Download
 </a>
+
 </div>
 
 </div>
