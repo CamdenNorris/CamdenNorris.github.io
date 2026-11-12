@@ -4,43 +4,55 @@ title: "Contact"
 author_profile: true
 ---
 
-<p>
-I am always interested in connecting about automotive engineering,
-robotics, mechanical design, research, internships, and project opportunities.
-</p>
+<p>I am interested in connecting about automotive engineering, robotics, mechanical design, internships, research, and project opportunities.</p>
 
 <div class="contact-grid">
 
+
 <div class="contact-card">
+
 <h3>Email</h3>
-<p>Cjnorri@clemson.edu</p>
-<a class="portfolio-button primary"
-   href="mailto:Camdenjn@icloud.com">
-Send Email
-</a>
+
+<p>For professional, academic, or internship inquiries.</p>
+
+<div class="portfolio-buttons">
+<a class="portfolio-button primary" href="mailto:cjnorri@clemson.edu">Email Me</a>
 </div>
 
+<p class="contact-detail">cjnorri@clemson.edu</p>
+
+</div>
+
+
 <div class="contact-card">
+
 <h3>GitHub</h3>
-<p>View my repositories and current development work.</p>
-<a class="portfolio-button"
-   href="https://github.com/CamdenNorris"
-   target="_blank">
-View GitHub
-</a>
+
+<p>View my repositories, development work, and current engineering projects.</p>
+
+<div class="portfolio-buttons">
+<a class="portfolio-button primary" href="https://github.com/CamdenNorris" target="_blank">View GitHub</a>
 </div>
+
+</div>
+
 
 <div class="contact-card">
+
 <h3>Resume</h3>
-<p>View or download my current resume.</p>
-<a class="portfolio-button"
-   href="/assets/files/resume/camden-norris-resume.pdf"
-   target="_blank">
-View Resume
-</a>
+
+<p>View or download my current engineering resume.</p>
+
+<div class="portfolio-buttons">
+<a class="portfolio-button primary" href="/assets/files/resume/camden-norris-resume.pdf" target="_blank">View Resume</a>
+<a class="portfolio-button" href="/assets/files/resume/camden-norris-resume.pdf" download>Download</a>
 </div>
 
 </div>
+
+
+</div>
+
 
 <h2>Areas of Interest</h2>
 
@@ -50,6 +62,7 @@ View Resume
 <span class="skill-tag">Mechanical Design</span>
 <span class="skill-tag">Computer Vision</span>
 <span class="skill-tag">Vehicle Systems</span>
+<span class="skill-tag">Powertrain</span>
 <span class="skill-tag">CAD</span>
 <span class="skill-tag">Simulation</span>
 </div>
