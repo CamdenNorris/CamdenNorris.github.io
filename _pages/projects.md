@@ -17,7 +17,7 @@ author_profile: true
 Python • Computer Vision • Hand Tracking • Gesture Recognition • Dashboard Development • Git/GitHub
 </div>
 
-<img class="project-detail-image"
+<img class="project-detail-image go1-project-image"
 src="/assets/files/go1/go1-robot.jpg"
 alt="GO1 quadruped robot">
 
@@ -47,7 +47,7 @@ alt="GO1 quadruped robot">
 
 <h3>Dashboard Development</h3>
 
-<p>I am developing a dashboard to serve as a centralized interface for the robotics system. The dashboard is intended to make it easier to monitor what the perception system is detecting and how the robot is responding in real time.</p>
+<p>I am developing a dashboard to serve as a centralized interface for the robotics system. The dashboard makes it easier to monitor what the perception system is detecting and how the robot is responding in real time.</p>
 
 <p>The dashboard is being developed to display information such as robot status, recognized gestures, system feedback, and relevant control functions. This provides a visual connection between the perception system and robot behavior while also making testing and troubleshooting easier.</p>
 
@@ -90,7 +90,7 @@ Your browser does not support embedded video.
 SolidWorks • CAD • Mechanical Design • Simulation
 </div>
 
-<img class="project-detail-image project-detail-contain"
+<img class="project-detail-image mixer-project-image"
 src="/assets/images/hand-mixer/complete-assembly.jpg"
 alt="SolidWorks mechanical hand mixer assembly">
 
