@@ -1,28 +1,21 @@
 /* =========================================================
-   EXPERIENCE / RESUME CARDS
-   MATCH FEATURED PROJECT STYLE
+   EXPERIENCE / RESUME
    ========================================================= */
 
 .experience-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
   width: 100%;
 }
 
 .experience-entry,
 .resume-entry {
-  width: 100%;
-  margin: 0;
-  padding: 1.6rem 1.75rem;
+  margin: 1.25rem 0;
+  padding: 1.5rem 1.6rem;
 
   background: var(--portfolio-card) !important;
   border: 1px solid var(--portfolio-border);
   border-radius: 14px;
 
-  color: var(--portfolio-text);
-
-  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.10);
 
   transition:
     transform 0.2s ease,
@@ -31,8 +24,8 @@
 
 .experience-entry:hover,
 .resume-entry:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
 }
 
 .experience-heading {
@@ -46,8 +39,7 @@
 
 .experience-heading h3 {
   margin: 0;
-  font-size: 1.3rem;
-  color: #ffffff !important;
+  font-size: 1.2rem;
 }
 
 .experience-meta {
@@ -60,7 +52,6 @@
 
 .experience-date {
   flex-shrink: 0;
-
   padding-top: 0.1rem;
 
   color: var(--portfolio-text-secondary);
@@ -72,28 +63,18 @@
 .experience-entry p,
 .resume-entry p {
   max-width: 850px;
-  margin: 0.6rem 0;
-
-  color: #ffffff !important;
+  margin: 0.5rem 0;
 }
 
 .experience-entry ul,
 .resume-entry ul {
-  margin-top: 0.8rem;
+  margin-top: 0.7rem;
   margin-bottom: 1rem;
-}
-
-.experience-entry li,
-.resume-entry li {
-  color: #ffffff !important;
 }
 
 .resume-actions {
   margin: 1.5rem 0 2rem;
 }
-
-
-/* MOBILE */
 
 @media (max-width: 768px) {
 
@@ -110,22 +91,4 @@
     margin-top: 0.25rem;
     text-align: left;
   }
-
-}
-/* FORCE PRIMARY BUTTONS ORANGE */
-
-.portfolio-button.primary,
-.experience-entry .portfolio-button.primary,
-.resume-entry .portfolio-button.primary {
-  background: #f56600 !important;
-  border-color: #f56600 !important;
-  color: #ffffff !important;
-}
-
-.portfolio-button.primary:hover,
-.experience-entry .portfolio-button.primary:hover,
-.resume-entry .portfolio-button.primary:hover {
-  background: #d95800 !important;
-  border-color: #d95800 !important;
-  color: #ffffff !important;
 }
