@@ -47,6 +47,9 @@ body {
 
   font-size: 1.02rem;
   line-height: 1.7;
+
+  /* Extra room before footer */
+  padding-bottom: 7rem;
 }
 
 .page__content p,
@@ -858,6 +861,10 @@ hr {
    ========================================================= */
 
 @media (max-width: 768px) {
+
+  .page__content {
+    padding-bottom: 5rem;
+  }
 
   .masthead__inner-wrap {
     padding: 0.35rem 0.75rem !important;
