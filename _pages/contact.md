@@ -14,54 +14,35 @@ author_profile: true
 <div class="info-row-content">
 <h3>Email</h3>
 <p>For professional, academic, internship, or project inquiries.</p>
-<p class="contact-email">cjnorri@clemson.edu</p>
+<span class="info-detail">cjnorri@clemson.edu</span>
 </div>
-
 <div class="info-row-action">
 <a class="portfolio-button primary" href="mailto:cjnorri@clemson.edu">Email Me</a>
 </div>
 </div>
-
 
 <div class="info-row">
 <div class="info-row-content">
 <h3>GitHub</h3>
 <p>View my repositories, engineering projects, and current development work.</p>
 </div>
-
 <div class="info-row-action">
-<a class="portfolio-button primary"
-href="https://github.com/CamdenNorris"
-target="_blank">
-View GitHub
-</a>
+<a class="portfolio-button primary" href="https://github.com/CamdenNorris" target="_blank">View GitHub</a>
 </div>
 </div>
-
 
 <div class="info-row">
 <div class="info-row-content">
 <h3>Resume</h3>
 <p>View or download my current engineering resume.</p>
 </div>
-
 <div class="info-row-action">
-<a class="portfolio-button primary"
-href="/assets/files/resume/camden-norris-resume.pdf"
-target="_blank">
-View Resume
-</a>
-
-<a class="portfolio-button"
-href="/assets/files/resume/camden-norris-resume.pdf"
-download>
-Download
-</a>
+<a class="portfolio-button primary" href="/assets/files/resume/camden-norris-resume.pdf" target="_blank">View Resume</a>
+<a class="portfolio-button" href="/assets/files/resume/camden-norris-resume.pdf" download>Download</a>
 </div>
 </div>
 
 </div>
-
 
 <h2>Areas of Interest</h2>
 
