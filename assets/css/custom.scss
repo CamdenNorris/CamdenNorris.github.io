@@ -71,29 +71,95 @@ hr {
 
 
 /* =========================================================
-   NAVIGATION
+   NAVIGATION / TOP BANNER
    ========================================================= */
 
-.masthead,
-.greedy-nav {
-  background: var(--portfolio-header) !important;
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(48, 48, 48, 0.98) 0%,
+      rgba(63, 63, 63, 0.98) 50%,
+      rgba(48, 48, 48, 0.98) 100%
+    ) !important;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+
+  box-shadow:
+    0 6px 20px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
 
-.masthead {
-  border-bottom: 1px solid #5d5d5d;
+.masthead__inner-wrap {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+.greedy-nav {
+  background: transparent !important;
 }
 
 .greedy-nav a,
 .site-title {
   color: #ffffff !important;
+  font-weight: 500;
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    background 0.2s ease;
+}
+
+.greedy-nav a:hover {
+  color: #ff8a33 !important;
+}
+
+.greedy-nav .visible-links {
+  align-items: center;
+}
+
+.greedy-nav .visible-links li {
+  margin: 0 0.2rem;
+}
+
+.greedy-nav .visible-links a {
+  padding: 0.7rem 0.9rem;
+  border-radius: 7px;
+}
+
+.greedy-nav .visible-links a:hover {
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .greedy-nav .visible-links a:before {
+  height: 3px !important;
+
   background: var(--portfolio-orange) !important;
+  border-radius: 999px;
+
+  bottom: 0 !important;
+}
+
+.masthead__menu-item--lg a {
+  font-weight: 700 !important;
+  letter-spacing: 0.2px;
 }
 
 .greedy-nav button {
-  background: var(--portfolio-header) !important;
+  background: transparent !important;
+  border: 0;
+}
+
+.navicon,
+.navicon:before,
+.navicon:after {
+  background: #ffffff !important;
 }
 
 
@@ -466,9 +532,6 @@ hr {
   object-position: center;
 }
 
-
-/* Mixer image fills the project width without white padding */
-
 .mixer-project-image {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -572,6 +635,15 @@ hr {
 
 @media (max-width: 768px) {
 
+  .masthead__inner-wrap {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .greedy-nav .visible-links a {
+    padding: 0.6rem 0.7rem;
+  }
+
   .portfolio-hero {
     padding-top: 1rem;
   }
@@ -622,7 +694,7 @@ hr {
   }
 
 
-  /* Mixer image */
+  /* Mixer */
 
   .mixer-project-image {
     aspect-ratio: auto;
@@ -630,7 +702,7 @@ hr {
   }
 
 
-  /* Engineering analysis */
+  /* Analysis */
 
   .analysis-grid {
     grid-template-columns: 1fr;
