@@ -48,8 +48,7 @@ body {
   font-size: 1.02rem;
   line-height: 1.7;
 
-  /* Extra room before footer */
-  padding-bottom: 7rem;
+  padding-bottom: 3rem;
 }
 
 .page__content p,
@@ -825,13 +824,11 @@ hr {
 
 
 /* =========================================================
-   FOOTER
+   REMOVE FOOTER
    ========================================================= */
 
 .page__footer {
-  background: #292929 !important;
-
-  color: #ffffff !important;
+  display: none !important;
 }
 
 
@@ -863,7 +860,7 @@ hr {
 @media (max-width: 768px) {
 
   .page__content {
-    padding-bottom: 5rem;
+    padding-bottom: 2.5rem;
   }
 
   .masthead__inner-wrap {
