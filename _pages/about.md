@@ -18,7 +18,7 @@ Automotive Engineering • Robotics • Mechanical Design
 
 <p>I am an Automotive Engineering student at Clemson University with an Engineering Leadership minor. My interests include robotics, automotive systems, mechanical design, computer vision, and intelligent machines.</p>
 
-<p>My work includes quadruped robotics research, Clemson Formula SAE Powertrain, mechanical CAD and simulation, and computer vision based gesture recognition.</p>
+<p>My work includes quadruped robotics research, Clemson Formula SAE Powertrain, mechanical CAD and simulation, gesture-controlled robotics, and dashboard development.</p>
 
 </div>
 
@@ -36,19 +36,21 @@ Automotive Engineering • Robotics • Mechanical Design
 <div class="project-grid">
 
 
-<div class="project-card">
+<div class="project-card project-card-horizontal">
 
-<img class="project-card-media" src="/assets/files/go1/go1-robot.jpg" alt="GO1 quadruped robot">
+<img class="project-card-media"
+src="/assets/files/go1/go1-robot.jpg"
+alt="GO1 quadruped robot">
 
 <div class="project-card-content">
 
 <h3>GO1 Quadruped Robotics</h3>
 
 <div class="project-tags">
-Python • MuJoCo • Computer Vision • Gesture Recognition
+Python • Computer Vision • Gesture Recognition • Dashboard Development
 </div>
 
-<p>Developing perception and gesture recognition systems for quadruped robot interaction using MuJoCo simulation, computer vision, and validated command inputs.</p>
+<p>Developing a gesture-controlled quadruped robotics system using computer vision and hand tracking, along with a dashboard for monitoring robot status, recognized gestures, system feedback, and control functions.</p>
 
 <div class="portfolio-buttons">
 <a class="portfolio-button primary" href="/projects/#go1-quadruped-robotics">View Project</a>
@@ -59,9 +61,11 @@ Python • MuJoCo • Computer Vision • Gesture Recognition
 </div>
 
 
-<div class="project-card">
+<div class="project-card project-card-horizontal">
 
-<img class="project-card-media" src="/assets/images/hand-mixer/complete-assembly.jpg" alt="SolidWorks mechanical hand mixer assembly">
+<img class="project-card-media project-card-media-contain"
+src="/assets/images/hand-mixer/complete-assembly.jpg"
+alt="SolidWorks mechanical hand mixer assembly">
 
 <div class="project-card-content">
 
@@ -71,7 +75,7 @@ Python • MuJoCo • Computer Vision • Gesture Recognition
 SolidWorks • CAD • Simulation • Mechanical Design
 </div>
 
-<p>Designed and assembled a multi-component mechanical system including custom components, engineering drawings, material selection, and structural analysis.</p>
+<p>Designed and assembled a multi-component mechanical hand mixer in SolidWorks, including custom components, engineering drawings, material selection, mechanical motion, and structural analysis.</p>
 
 <div class="portfolio-buttons">
 <a class="portfolio-button primary" href="/projects/#mechanical-hand-mixer">View Project</a>
@@ -82,9 +86,11 @@ SolidWorks • CAD • Simulation • Mechanical Design
 </div>
 
 
-<div class="project-card">
+<div class="project-card project-card-horizontal">
 
-<img class="project-card-media" src="/assets/images/formula-sae/clemson-paw.jpg" alt="Clemson Formula SAE">
+<img class="project-card-media project-card-media-contain"
+src="/assets/images/formula-sae/clemson-paw.jpg"
+alt="Clemson Formula SAE">
 
 <div class="project-card-content">
 
@@ -94,7 +100,7 @@ SolidWorks • CAD • Simulation • Mechanical Design
 Automotive Engineering • Powertrain • Mechanical Design
 </div>
 
-<p>Member of Clemson Formula SAE's Powertrain Division, gaining hands-on experience with automotive systems, mechanical design, vehicle development, and collaborative engineering problem solving.</p>
+<p>Member of Clemson Formula SAE's Powertrain Division, applying automotive engineering principles while gaining hands-on experience with powertrain systems, mechanical design, vehicle development, and collaborative engineering.</p>
 
 <div class="portfolio-buttons">
 <a class="portfolio-button primary" href="/projects/#clemson-formula-sae">View Project</a>
@@ -113,10 +119,11 @@ Automotive Engineering • Powertrain • Mechanical Design
 <div class="skill-list">
 <span class="skill-tag">SolidWorks</span>
 <span class="skill-tag">Python</span>
-<span class="skill-tag">MuJoCo</span>
+<span class="skill-tag">Computer Vision</span>
+<span class="skill-tag">Gesture Recognition</span>
+<span class="skill-tag">Dashboard Development</span>
 <span class="skill-tag">Git</span>
 <span class="skill-tag">GitHub</span>
-<span class="skill-tag">Computer Vision</span>
 <span class="skill-tag">Mechanical Design</span>
 <span class="skill-tag">CAD</span>
 <span class="skill-tag">Simulation</span>
@@ -126,7 +133,7 @@ Automotive Engineering • Powertrain • Mechanical Design
 
 <h2>Current Focus</h2>
 
-<p>I am continuing to build experience across automotive engineering, robotics, mechanical design, simulation, and intelligent systems while developing projects that combine hands-on engineering with software and computer vision.</p>
+<p>I am continuing to develop experience across automotive engineering, robotics, mechanical design, computer vision, and intelligent systems. My current work includes improving gesture-based robot control, developing a monitoring dashboard for the robotics system, and contributing to Clemson Formula SAE.</p>
 
 <div class="portfolio-buttons">
 <a class="portfolio-button primary" href="/projects/">Explore My Work</a>
