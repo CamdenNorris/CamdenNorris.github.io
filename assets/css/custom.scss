@@ -16,7 +16,6 @@
 
   --portfolio-text: #ffffff;
   --portfolio-text-secondary: #dddddd;
-
   --portfolio-border: #707070;
 }
 
@@ -29,7 +28,6 @@ html,
 body {
   background: var(--portfolio-bg) !important;
   color: var(--portfolio-text) !important;
-  color-scheme: dark;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -43,7 +41,7 @@ body {
 
 .page__content {
   color: var(--portfolio-text) !important;
-  font-size: 1.02rem;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
@@ -61,16 +59,19 @@ body {
 
 .page__content h2 {
   margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--portfolio-border);
 }
 
 .page__content h3 {
-  margin-top: 1.8rem;
+  margin-top: 0;
 }
 
-hr {
-  border: 0;
-  border-top: 1px solid var(--portfolio-border);
-  margin: 3rem 0;
+.page-intro {
+  max-width: 850px;
+  margin-bottom: 1.5rem;
+  font-size: 1.08rem;
 }
 
 
@@ -89,7 +90,7 @@ hr {
 
 .greedy-nav a,
 .site-title {
-  color: var(--portfolio-text) !important;
+  color: #ffffff !important;
 }
 
 .greedy-nav .visible-links a:before {
@@ -110,13 +111,15 @@ hr {
 .author__name,
 .author__bio,
 .author__urls,
-.author__urls li {
-  color: var(--portfolio-text) !important;
+.author__urls li,
+.sidebar,
+.sidebar p {
+  color: #ffffff !important;
 }
 
 .author__urls a,
 .sidebar a {
-  color: var(--portfolio-text) !important;
+  color: #ffffff !important;
 }
 
 .author__urls a:hover,
@@ -131,7 +134,7 @@ hr {
 .author__urls-wrapper button {
   background: var(--portfolio-card) !important;
   border-color: var(--portfolio-border) !important;
-  color: var(--portfolio-text) !important;
+  color: #ffffff !important;
 }
 
 
@@ -149,7 +152,54 @@ hr {
 
 
 /* =========================================================
-   HERO
+   BUTTONS
+   ========================================================= */
+
+.portfolio-buttons,
+.resume-actions,
+.inline-action {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.2rem;
+}
+
+.portfolio-button {
+  display: inline-block;
+  padding: 0.65rem 1.1rem;
+
+  background: transparent !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 8px;
+
+  color: #ffffff !important;
+  font-weight: 600;
+  text-decoration: none !important;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.portfolio-button:hover {
+  transform: translateY(-2px);
+  background: #555555 !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18);
+}
+
+.portfolio-button.primary {
+  background: var(--portfolio-orange) !important;
+  border-color: var(--portfolio-orange) !important;
+}
+
+.portfolio-button.primary:hover {
+  background: #d95800 !important;
+}
+
+
+/* =========================================================
+   HOME HERO
    ========================================================= */
 
 .portfolio-hero {
@@ -176,53 +226,7 @@ hr {
 
 
 /* =========================================================
-   BUTTONS
-   ========================================================= */
-
-.portfolio-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1.25rem;
-}
-
-.portfolio-button {
-  display: inline-block;
-  padding: 0.65rem 1.15rem;
-
-  background: var(--portfolio-bg) !important;
-  border: 1px solid #ffffff !important;
-  border-radius: 8px;
-
-  color: #ffffff !important;
-  font-weight: 600;
-  text-decoration: none !important;
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    background 0.2s ease;
-}
-
-.portfolio-button:hover {
-  transform: translateY(-2px);
-  background: #555555 !important;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
-}
-
-.portfolio-button.primary {
-  background: var(--portfolio-orange) !important;
-  border-color: var(--portfolio-orange) !important;
-  color: #ffffff !important;
-}
-
-.portfolio-button.primary:hover {
-  background: #d95800 !important;
-}
-
-
-/* =========================================================
-   HOMEPAGE FEATURED PROJECTS
+   FEATURED PROJECTS
    ========================================================= */
 
 .project-grid {
@@ -234,10 +238,10 @@ hr {
 
 .project-card {
   overflow: hidden;
+
   background: var(--portfolio-card) !important;
   border: 1px solid var(--portfolio-border);
   border-radius: 14px;
-  color: var(--portfolio-text);
 
   transition:
     transform 0.2s ease,
@@ -255,9 +259,6 @@ hr {
   min-height: 270px;
 }
 
-
-/* Media wrapper forces every picture to fill the left side */
-
 .project-media-wrapper {
   position: relative;
   width: 100%;
@@ -271,7 +272,6 @@ hr {
   position: absolute;
   inset: 0;
 
-  display: block;
   width: 100%;
   height: 100%;
 
@@ -283,22 +283,22 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   padding: 1.75rem 2rem;
 }
 
 .project-card h3 {
   margin: 0 0 0.4rem;
-  color: #ffffff !important;
   font-size: 1.4rem;
 }
 
 .project-card p {
   margin: 0.5rem 0 0;
-  color: #ffffff !important;
 }
 
 .project-tags {
   margin-bottom: 0.7rem;
+
   color: var(--portfolio-text-secondary) !important;
   font-size: 0.9rem;
   font-weight: 500;
@@ -306,16 +306,16 @@ hr {
 
 .project-tags-detail {
   margin-bottom: 1rem;
-  font-size: 0.95rem;
 }
 
 
 /* =========================================================
-   PROJECT DETAIL PAGES
+   PROJECT DETAIL PAGE
    ========================================================= */
 
 .project-detail-image {
   display: block;
+
   width: 100%;
   max-height: 600px;
 
@@ -336,6 +336,7 @@ hr {
 
 .project-video {
   display: block;
+
   width: 100%;
   max-width: 900px;
 
@@ -348,7 +349,7 @@ hr {
 
 
 /* =========================================================
-   ENGINEERING ANALYSIS
+   ANALYSIS
    ========================================================= */
 
 .analysis-grid {
@@ -361,6 +362,7 @@ hr {
 
 .analysis-item {
   overflow: hidden;
+
   background: var(--portfolio-card);
   border: 1px solid var(--portfolio-border);
   border-radius: 12px;
@@ -387,14 +389,14 @@ hr {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin: 1rem 0 1.5rem;
+  margin: 1rem 0 1.75rem;
 }
 
 .skill-tag {
   padding: 0.4rem 0.8rem;
 
-  background: var(--portfolio-card) !important;
-  border: 1px solid #888888;
+  background: transparent !important;
+  border: 1px solid #8b8b8b;
   border-radius: 999px;
 
   color: #ffffff !important;
@@ -403,39 +405,72 @@ hr {
 
 
 /* =========================================================
-   EXPERIENCE
+   EXPERIENCE / RESUME
    ========================================================= */
 
-.experience-card {
-  margin: 1.5rem 0;
-  padding: 1.5rem;
-
-  background: var(--portfolio-card) !important;
-  border: 1px solid var(--portfolio-border);
-  border-radius: 14px;
-
-  color: var(--portfolio-text);
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+.experience-list {
+  width: 100%;
 }
 
-.experience-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+.experience-entry,
+.resume-entry {
+  padding: 0.4rem 0 1.7rem;
+  margin-bottom: 1.5rem;
+
+  border-bottom: 1px solid #626262;
 }
 
-.experience-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.25rem;
+.experience-entry:last-child,
+.resume-entry:last-child {
+  margin-bottom: 0;
+}
+
+.experience-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+
+  margin-bottom: 0.7rem;
+}
+
+.experience-heading h3 {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 .experience-meta {
-  margin-bottom: 1rem;
+  margin-top: 0.15rem;
+
   color: var(--portfolio-text-secondary) !important;
   font-size: 0.95rem;
   font-weight: 600;
+}
+
+.experience-date {
+  flex-shrink: 0;
+
+  padding-top: 0.1rem;
+
+  color: var(--portfolio-text-secondary);
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.experience-entry p,
+.resume-entry p {
+  max-width: 850px;
+  margin: 0.5rem 0;
+}
+
+.experience-entry ul,
+.resume-entry ul {
+  margin-top: 0.7rem;
+}
+
+.resume-actions {
+  margin: 1.5rem 0 2rem;
 }
 
 
@@ -443,35 +478,52 @@ hr {
    CONTACT
    ========================================================= */
 
-.contact-grid {
+.info-list {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--portfolio-border);
+}
+
+.info-row {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
 
-  gap: 1.5rem;
-  margin: 2rem 0;
+  gap: 2rem;
+
+  padding: 1.4rem 0;
+
+  border-bottom: 1px solid var(--portfolio-border);
 }
 
-.contact-card {
-  padding: 1.5rem;
-
-  background: var(--portfolio-card) !important;
-  border: 1px solid var(--portfolio-border);
-  border-radius: 14px;
-
-  color: var(--portfolio-text);
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+.info-row-content h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.15rem;
 }
 
-.contact-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+.info-row-content p {
+  margin: 0;
+  color: var(--portfolio-text-secondary) !important;
 }
 
-.contact-card h3 {
-  margin-top: 0;
+.info-detail {
+  display: block;
+
+  margin-top: 0.35rem;
+
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+.info-row-action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+  gap: 0.6rem;
+}
+
+.info-row-action .portfolio-button {
+  white-space: nowrap;
 }
 
 
@@ -481,7 +533,7 @@ hr {
 
 .page__footer {
   background: var(--portfolio-header) !important;
-  color: var(--portfolio-text) !important;
+  color: #ffffff !important;
 }
 
 
@@ -493,10 +545,6 @@ hr {
 
   .project-card-horizontal {
     grid-template-columns: 260px 1fr;
-  }
-
-  .contact-grid {
-    grid-template-columns: 1fr;
   }
 
 }
@@ -521,25 +569,15 @@ hr {
   }
 
 
-  /* Horizontal cards become vertical */
+  /* Featured projects */
 
   .project-card-horizontal {
     display: block;
   }
 
   .project-media-wrapper {
-    position: relative;
-    width: 100%;
     height: 230px;
     min-height: 230px;
-  }
-
-  .project-card-media {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 
   .project-card-content {
@@ -547,29 +585,34 @@ hr {
   }
 
 
-  /* Engineering analysis */
+  /* Resume / experience */
+
+  .experience-heading {
+    display: block;
+  }
+
+  .experience-date {
+    margin-top: 0.25rem;
+    text-align: left;
+  }
+
+
+  /* Contact */
+
+  .info-row {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+
+  .info-row-action {
+    justify-content: flex-start;
+  }
+
+
+  /* Analysis */
 
   .analysis-grid {
     grid-template-columns: 1fr;
-  }
-
-
-  /* Buttons */
-
-  .portfolio-button {
-    padding: 0.7rem 1rem;
-  }
-
-
-  /* Sidebar readability */
-
-  .author__name,
-  .author__bio,
-  .author__urls,
-  .author__urls a,
-  .sidebar,
-  .sidebar p {
-    color: #ffffff !important;
   }
 
 }
