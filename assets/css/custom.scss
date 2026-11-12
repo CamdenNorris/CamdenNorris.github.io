@@ -5,9 +5,6 @@
    CAMDEN NORRIS PORTFOLIO
    ========================================================= */
 
-
-/* ---------- COLORS ---------- */
-
 :root {
   --portfolio-orange: #f56600;
   --portfolio-orange-light: #ff8a33;
@@ -24,7 +21,9 @@
 }
 
 
-/* ---------- GLOBAL SITE ---------- */
+/* =========================================================
+   GLOBAL
+   ========================================================= */
 
 html,
 body {
@@ -32,10 +31,6 @@ body {
   color: var(--portfolio-text) !important;
   color-scheme: dark;
   -webkit-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
 }
 
 .page,
@@ -79,7 +74,9 @@ hr {
 }
 
 
-/* ---------- HEADER / NAVIGATION ---------- */
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
 
 .masthead,
 .greedy-nav {
@@ -104,7 +101,9 @@ hr {
 }
 
 
-/* ---------- SIDEBAR ---------- */
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
 
 .author__content,
 .author__content p,
@@ -136,7 +135,9 @@ hr {
 }
 
 
-/* ---------- NORMAL LINKS ---------- */
+/* =========================================================
+   LINKS
+   ========================================================= */
 
 .page__content a:not(.portfolio-button) {
   color: var(--portfolio-orange-light) !important;
@@ -147,7 +148,9 @@ hr {
 }
 
 
-/* ---------- HOME HERO ---------- */
+/* =========================================================
+   HERO
+   ========================================================= */
 
 .portfolio-hero {
   padding: 1.5rem 0 2.5rem;
@@ -172,7 +175,9 @@ hr {
 }
 
 
-/* ---------- BUTTONS ---------- */
+/* =========================================================
+   BUTTONS
+   ========================================================= */
 
 .portfolio-buttons {
   display: flex;
@@ -217,27 +222,21 @@ hr {
 
 
 /* =========================================================
-   FEATURED PROJECTS
+   HOMEPAGE FEATURED PROJECTS
    ========================================================= */
 
 .project-grid {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-
   margin: 1.5rem 0 2.5rem;
 }
 
-
-/* ---------- HORIZONTAL PROJECT CARDS ---------- */
-
 .project-card {
   overflow: hidden;
-
   background: var(--portfolio-card) !important;
   border: 1px solid var(--portfolio-border);
   border-radius: 14px;
-
   color: var(--portfolio-text);
 
   transition:
@@ -252,56 +251,54 @@ hr {
 
 .project-card-horizontal {
   display: grid;
-  grid-template-columns: minmax(280px, 34%) 1fr;
+  grid-template-columns: minmax(300px, 36%) 1fr;
+  min-height: 270px;
+}
 
-  min-height: 250px;
+
+/* Media wrapper forces every picture to fill the left side */
+
+.project-media-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 270px;
+  overflow: hidden;
+  background: #2d2d2d;
 }
 
 .project-card-media {
-  display: block;
+  position: absolute;
+  inset: 0;
 
+  display: block;
   width: 100%;
   height: 100%;
-  min-height: 250px;
-
-  background: #2d2d2d;
 
   object-fit: cover;
   object-position: center;
-}
-
-.project-card-media-contain {
-  padding: 1rem;
-
-  background: #ffffff;
-
-  object-fit: contain;
 }
 
 .project-card-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  padding: 1.75rem;
+  padding: 1.75rem 2rem;
 }
 
 .project-card h3 {
   margin: 0 0 0.4rem;
-
   color: #ffffff !important;
-  font-size: 1.35rem;
+  font-size: 1.4rem;
 }
 
 .project-card p {
   margin: 0.5rem 0 0;
-
   color: #ffffff !important;
 }
 
 .project-tags {
   margin-bottom: 0.7rem;
-
   color: var(--portfolio-text-secondary) !important;
   font-size: 0.9rem;
   font-weight: 500;
@@ -319,7 +316,6 @@ hr {
 
 .project-detail-image {
   display: block;
-
   width: 100%;
   max-height: 600px;
 
@@ -332,17 +328,14 @@ hr {
   object-fit: cover;
 }
 
-.project-detail-image-contain {
+.project-detail-contain {
   padding: 1rem;
-
   background: #ffffff;
-
   object-fit: contain;
 }
 
 .project-video {
   display: block;
-
   width: 100%;
   max-width: 900px;
 
@@ -354,7 +347,9 @@ hr {
 }
 
 
-/* ---------- ENGINEERING ANALYSIS ---------- */
+/* =========================================================
+   ENGINEERING ANALYSIS
+   ========================================================= */
 
 .analysis-grid {
   display: grid;
@@ -366,7 +361,6 @@ hr {
 
 .analysis-item {
   overflow: hidden;
-
   background: var(--portfolio-card);
   border: 1px solid var(--portfolio-border);
   border-radius: 12px;
@@ -374,26 +368,24 @@ hr {
 
 .analysis-item img {
   display: block;
-
   width: 100%;
-
   background: #ffffff;
 }
 
 .analysis-item p {
   margin: 0;
   padding: 0.75rem;
-
   text-align: center;
 }
 
 
-/* ---------- SKILLS ---------- */
+/* =========================================================
+   SKILLS
+   ========================================================= */
 
 .skill-list {
   display: flex;
   flex-wrap: wrap;
-
   gap: 0.6rem;
   margin: 1rem 0 1.5rem;
 }
@@ -411,7 +403,7 @@ hr {
 
 
 /* =========================================================
-   EXPERIENCE PAGE
+   EXPERIENCE
    ========================================================= */
 
 .experience-card {
@@ -441,7 +433,6 @@ hr {
 
 .experience-meta {
   margin-bottom: 1rem;
-
   color: var(--portfolio-text-secondary) !important;
   font-size: 0.95rem;
   font-weight: 600;
@@ -449,7 +440,7 @@ hr {
 
 
 /* =========================================================
-   CONTACT PAGE
+   CONTACT
    ========================================================= */
 
 .contact-grid {
@@ -484,7 +475,9 @@ hr {
 }
 
 
-/* ---------- FOOTER ---------- */
+/* =========================================================
+   FOOTER
+   ========================================================= */
 
 .page__footer {
   background: var(--portfolio-header) !important;
@@ -528,16 +521,25 @@ hr {
   }
 
 
-  /* Project cards stack vertically on phones */
+  /* Horizontal cards become vertical */
 
   .project-card-horizontal {
-    grid-template-columns: 1fr;
+    display: block;
+  }
+
+  .project-media-wrapper {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    min-height: 230px;
   }
 
   .project-card-media {
+    position: absolute;
+    inset: 0;
     width: 100%;
-    height: 220px;
-    min-height: 220px;
+    height: 100%;
+    object-fit: cover;
   }
 
   .project-card-content {
@@ -545,21 +547,21 @@ hr {
   }
 
 
-  /* Engineering plots stack */
+  /* Engineering analysis */
 
   .analysis-grid {
     grid-template-columns: 1fr;
   }
 
 
-  /* Keep buttons easy to tap */
+  /* Buttons */
 
   .portfolio-button {
     padding: 0.7rem 1rem;
   }
 
 
-  /* Ensure all sidebar text stays readable */
+  /* Sidebar readability */
 
   .author__name,
   .author__bio,
