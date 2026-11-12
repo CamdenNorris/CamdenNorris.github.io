@@ -38,9 +38,11 @@ Automotive Engineering • Robotics • Mechanical Design
 
 <div class="project-card project-card-horizontal">
 
+<div class="project-media-wrapper">
 <img class="project-card-media"
 src="/assets/files/go1/go1-robot.jpg"
 alt="GO1 quadruped robot">
+</div>
 
 <div class="project-card-content">
 
@@ -63,9 +65,11 @@ Python • Computer Vision • Gesture Recognition • Dashboard Development
 
 <div class="project-card project-card-horizontal">
 
-<img class="project-card-media project-card-media-contain"
+<div class="project-media-wrapper">
+<img class="project-card-media"
 src="/assets/images/hand-mixer/complete-assembly.jpg"
 alt="SolidWorks mechanical hand mixer assembly">
+</div>
 
 <div class="project-card-content">
 
@@ -88,9 +92,11 @@ SolidWorks • CAD • Simulation • Mechanical Design
 
 <div class="project-card project-card-horizontal">
 
-<img class="project-card-media project-card-media-contain"
+<div class="project-media-wrapper">
+<img class="project-card-media"
 src="/assets/images/formula-sae/clemson-paw.jpg"
 alt="Clemson Formula SAE">
+</div>
 
 <div class="project-card-content">
 
