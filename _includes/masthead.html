@@ -2,38 +2,48 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
 
-        <button>
-          <span class="navicon"></span>
-        </button>
+    <nav class="portfolio-topnav" aria-label="Primary navigation">
 
-        <ul class="visible-links">
+      <a class="portfolio-brand" href="{{ base_path }}/">
+        Camden Norris
+      </a>
 
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
+      <div class="portfolio-topnav-links">
 
-          {% for link in site.data.navigation.main %}
+        <a
+          class="portfolio-nav-link {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}"
+          href="{{ base_path }}/">
+          Home
+        </a>
 
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
+        <a
+          class="portfolio-nav-link {% if page.url contains '/projects/' %}selected{% endif %}"
+          href="{{ base_path }}/projects/">
+          Projects
+        </a>
 
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
-            </li>
+        <a
+          class="portfolio-nav-link {% if page.url contains '/experience/' %}selected{% endif %}"
+          href="{{ base_path }}/experience/">
+          Experience
+        </a>
 
-          {% endfor %}
+        <a
+          class="portfolio-nav-link {% if page.url contains '/resume/' %}selected{% endif %}"
+          href="{{ base_path }}/resume/">
+          Resume
+        </a>
 
-        </ul>
+        <a
+          class="portfolio-nav-link {% if page.url contains '/contact/' %}selected{% endif %}"
+          href="{{ base_path }}/contact/">
+          Contact
+        </a>
 
-        <ul class="hidden-links hidden"></ul>
+      </div>
 
-      </nav>
-    </div>
+    </nav>
+
   </div>
 </div>
