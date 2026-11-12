@@ -112,3 +112,20 @@
   }
 
 }
+/* FORCE PRIMARY BUTTONS ORANGE */
+
+.portfolio-button.primary,
+.experience-entry .portfolio-button.primary,
+.resume-entry .portfolio-button.primary {
+  background: #f56600 !important;
+  border-color: #f56600 !important;
+  color: #ffffff !important;
+}
+
+.portfolio-button.primary:hover,
+.experience-entry .portfolio-button.primary:hover,
+.resume-entry .portfolio-button.primary:hover {
+  background: #d95800 !important;
+  border-color: #d95800 !important;
+  color: #ffffff !important;
+}
