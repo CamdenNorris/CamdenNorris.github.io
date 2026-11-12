@@ -36,11 +36,13 @@ Automotive Engineering • Robotics • Mechanical Design
 <div class="project-grid">
 
 
-<div class="project-card">
+<div class="project-card project-card-horizontal">
 
+<div class="project-media-wrapper">
 <img class="project-card-media"
 src="/assets/files/go1/go1-robot.jpg"
 alt="GO1 quadruped robot">
+</div>
 
 <div class="project-card-content">
 
@@ -53,7 +55,10 @@ Python • Computer Vision • Gesture Recognition • Dashboard Development
 <p>Developing a gesture-controlled quadruped robotics system using computer vision and hand tracking, along with a dashboard for monitoring robot status, recognized gestures, system feedback, and control functions.</p>
 
 <div class="portfolio-buttons">
-<a class="portfolio-button primary" href="/projects/#go1-quadruped-robotics">View Project</a>
+<a class="portfolio-button primary"
+href="/projects/#go1-quadruped-robotics">
+View Project
+</a>
 </div>
 
 </div>
@@ -61,11 +66,13 @@ Python • Computer Vision • Gesture Recognition • Dashboard Development
 </div>
 
 
-<div class="project-card">
+<div class="project-card project-card-horizontal">
 
+<div class="project-media-wrapper">
 <img class="project-card-media"
 src="/assets/images/hand-mixer/complete-assembly.jpg"
 alt="SolidWorks mechanical hand mixer assembly">
+</div>
 
 <div class="project-card-content">
 
@@ -78,7 +85,10 @@ SolidWorks • CAD • Simulation • Mechanical Design
 <p>Designed and assembled a multi-component mechanical hand mixer in SolidWorks, including custom components, engineering drawings, material selection, mechanical motion, and structural analysis.</p>
 
 <div class="portfolio-buttons">
-<a class="portfolio-button primary" href="/projects/#mechanical-hand-mixer">View Project</a>
+<a class="portfolio-button primary"
+href="/projects/#mechanical-hand-mixer">
+View Project
+</a>
 </div>
 
 </div>
@@ -86,11 +96,13 @@ SolidWorks • CAD • Simulation • Mechanical Design
 </div>
 
 
-<div class="project-card">
+<div class="project-card project-card-horizontal">
 
+<div class="project-media-wrapper">
 <img class="project-card-media"
 src="/assets/images/formula-sae/clemson-paw.jpg"
 alt="Clemson Formula SAE">
+</div>
 
 <div class="project-card-content">
 
@@ -103,7 +115,10 @@ Automotive Engineering • Powertrain • Mechanical Design
 <p>Member of Clemson Formula SAE's Powertrain Division, gaining hands-on experience with automotive systems, mechanical design, vehicle development, and collaborative engineering problem solving.</p>
 
 <div class="portfolio-buttons">
-<a class="portfolio-button primary" href="/projects/#clemson-formula-sae">View Project</a>
+<a class="portfolio-button primary"
+href="/projects/#clemson-formula-sae">
+View Project
+</a>
 </div>
 
 </div>
