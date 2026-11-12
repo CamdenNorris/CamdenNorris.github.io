@@ -21,11 +21,12 @@ Python • Computer Vision • Hand Tracking • Gesture Recognition • Dashboa
 src="/assets/files/go1/go1-robot.jpg"
 alt="GO1 quadruped robot">
 
+
 <h3>Overview</h3>
 
 <p>I am working on a quadruped robotics project focused on developing an intuitive way to interact with and control the robot using computer vision and hand gestures.</p>
 
-<p>The system uses real-time hand tracking and gesture recognition to translate intentional hand movements into robot commands. The project has progressed from early simulation and perception testing toward a gesture-focused control system with real-time feedback.</p>
+<p>The system uses real-time hand tracking and gesture recognition to translate intentional hand movements into robot commands. The project has progressed from early simulation and perception testing toward a gesture-focused control system with real-time system feedback.</p>
 
 
 <h3>Current Development</h3>
@@ -46,9 +47,9 @@ alt="GO1 quadruped robot">
 
 <h3>Dashboard Development</h3>
 
-<p>I am also developing a dashboard to serve as a centralized interface for the robotics system. The dashboard is intended to make it easier to monitor what the system is detecting and how the robot is responding in real time.</p>
+<p>I am developing a dashboard to serve as a centralized interface for the robotics system. The dashboard is intended to make it easier to monitor what the perception system is detecting and how the robot is responding in real time.</p>
 
-<p>Planned dashboard functionality includes displaying robot status, recognized gestures, system feedback, and relevant control information. This provides a visual layer between the perception system and robot behavior and makes testing and troubleshooting easier.</p>
+<p>The dashboard is being developed to display information such as robot status, recognized gestures, system feedback, and relevant control functions. This provides a visual connection between the perception system and robot behavior while also making testing and troubleshooting easier.</p>
 
 
 <h3>Project Goal</h3>
@@ -89,7 +90,7 @@ Your browser does not support embedded video.
 SolidWorks • CAD • Mechanical Design • Simulation
 </div>
 
-<img class="project-detail-image project-detail-image-contain"
+<img class="project-detail-image project-detail-contain"
 src="/assets/images/hand-mixer/complete-assembly.jpg"
 alt="SolidWorks mechanical hand mixer assembly">
 
