@@ -4,167 +4,205 @@ title: "Projects"
 author_profile: true
 ---
 
-Below are selected projects involving robotics, automotive engineering, mechanical design, CAD, simulation, and computer vision.
+<p>This page highlights selected work in robotics, automotive engineering, mechanical design, CAD, simulation, and computer vision.</p>
 
----
+<hr>
 
 
 <a id="go1-quadruped-robotics"></a>
 
-## GO1 Quadruped Robotics
+<h2>GO1 Quadruped Robotics</h2>
 
-**Python • MuJoCo • Computer Vision • Gesture Recognition**
+<div class="project-tags project-tags-detail">
+Python • Computer Vision • Hand Tracking • Gesture Recognition • Dashboard Development • Git/GitHub
+</div>
 
-I am working on quadruped robotics research focused on simulation, perception, and human-robot interaction.
+<img class="project-detail-image"
+src="/assets/files/go1/go1-robot.jpg"
+alt="GO1 quadruped robot">
 
-My work has included:
+<h3>Overview</h3>
 
-- Running and modifying a Unitree GO1 simulation in MuJoCo
-- Webcam-based hand detection and tracking
-- Developing a gesture vocabulary for robot commands
-- Gesture classification and confidence validation
-- Separating raw perception output from validated robot intent
-- Testing across different users, lighting conditions, and hand positions
-- Using Git and GitHub for collaborative development and version control
-     
-### Project Goal
+<p>I am working on a quadruped robotics project focused on developing an intuitive way to interact with and control the robot using computer vision and hand gestures.</p>
 
-The goal is to create a reliable perception pipeline that can interpret hand gestures and convert them into validated robot commands such as:
+<p>The system uses real-time hand tracking and gesture recognition to translate intentional hand movements into robot commands. The project has progressed from early simulation and perception testing toward a gesture-focused control system with real-time feedback.</p>
 
-`STOP` `FORWARD` `BACKWARD` `LEFT` `RIGHT`
+
+<h3>Current Development</h3>
+
+<ul>
+<li>Real-time webcam-based hand detection and tracking</li>
+<li>Gesture-based robot movement commands</li>
+<li>Gesture-based speed control</li>
+<li>Improving recognition between similar hand gestures</li>
+<li>Reducing unintended or incorrect gesture classifications</li>
+<li>Using hand gestures as the primary user control input</li>
+<li>Connecting validated gestures to robot control functions</li>
+<li>Testing recognition across different hand positions and environments</li>
+<li>Developing a dashboard for robot monitoring and system feedback</li>
+<li>Using Git and GitHub for collaborative development and version control</li>
+</ul>
+
+
+<h3>Dashboard Development</h3>
+
+<p>I am also developing a dashboard to serve as a centralized interface for the robotics system. The dashboard is intended to make it easier to monitor what the system is detecting and how the robot is responding in real time.</p>
+
+<p>Planned dashboard functionality includes displaying robot status, recognized gestures, system feedback, and relevant control information. This provides a visual layer between the perception system and robot behavior and makes testing and troubleshooting easier.</p>
+
+
+<h3>Project Goal</h3>
+
+<p>The goal is to create a reliable and intuitive human-robot interaction system where hand gestures can control the robot without relying on traditional keyboard controls, while the dashboard provides clear feedback about system behavior.</p>
+
 
 <h3>Demo</h3>
 
-<video controls preload="metadata" style="width:100%; max-width:900px; border-radius:14px;">
-  <source src="/assets/files/go1/go1-demo-web.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+<video class="project-video" controls preload="metadata">
+<source src="/assets/files/go1/go1-demo-web.mp4" type="video/mp4">
+Your browser does not support embedded video.
 </video>
 
-### Technical Focus
+
+<h3>Technical Focus</h3>
 
 <div class="skill-list">
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">MuJoCo</span>
-  <span class="skill-tag">Computer Vision</span>
-  <span class="skill-tag">Gesture Recognition</span>
-  <span class="skill-tag">Git</span>
-  <span class="skill-tag">GitHub</span>
+<span class="skill-tag">Python</span>
+<span class="skill-tag">Computer Vision</span>
+<span class="skill-tag">Hand Tracking</span>
+<span class="skill-tag">Gesture Recognition</span>
+<span class="skill-tag">Dashboard Development</span>
+<span class="skill-tag">Robot Control</span>
+<span class="skill-tag">Git</span>
+<span class="skill-tag">GitHub</span>
 </div>
 
----
 
-## Mechanical Hand Mixer Design
+<hr>
 
-**SolidWorks • CAD • Mechanical Design • Simulation**
 
-<img src="/assets/images/hand-mixer/complete-assembly.jpg"
-     alt="SolidWorks mechanical hand mixer assembly"
-     style="width:100%; border-radius:14px; margin:1rem 0 1.5rem;">
+<a id="mechanical-hand-mixer"></a>
 
-Designed and assembled a multi-component mechanical hand mixer in SolidWorks. The project involved individual component modeling, assembly design, mechanical motion, technical drawings, material selection, and structural analysis.
+<h2>Mechanical Hand Mixer Design</h2>
 
-### Project Highlights
+<div class="project-tags project-tags-detail">
+SolidWorks • CAD • Mechanical Design • Simulation
+</div>
 
-- Modeled individual mechanical components in SolidWorks
-- Created the complete mechanical assembly
-- Developed the crank and gear mechanism
-- Produced dimensioned engineering drawings
-- Selected materials for individual components
-- Evaluated von Mises stress
-- Evaluated displacement
-- Created a mechanical motion demonstration
+<img class="project-detail-image project-detail-image-contain"
+src="/assets/images/hand-mixer/complete-assembly.jpg"
+alt="SolidWorks mechanical hand mixer assembly">
 
-### Assembly Demo
 
-<video
-  width="100%"
-  controls
-  style="border-radius:14px; margin:1rem 0 1.5rem;"
->
-  <source src="/assets/files/hand-mixer/complete-assembly.mp4" type="video/mp4">
-  Your browser does not support embedded video.
+<h3>Overview</h3>
+
+<p>Designed and assembled a multi-component mechanical hand mixer in SolidWorks. The project combined individual component modeling, mechanical assembly design, engineering drawings, material selection, motion, and structural analysis.</p>
+
+
+<h3>Project Highlights</h3>
+
+<ul>
+<li>Modeled individual mechanical components in SolidWorks</li>
+<li>Created the complete mechanical assembly</li>
+<li>Developed the crank and gear mechanism</li>
+<li>Produced dimensioned engineering drawings</li>
+<li>Selected materials for individual components</li>
+<li>Evaluated von Mises stress</li>
+<li>Evaluated displacement</li>
+<li>Created a mechanical motion demonstration</li>
+</ul>
+
+
+<h3>Assembly Demo</h3>
+
+<video class="project-video" controls preload="metadata">
+<source src="/assets/files/hand-mixer/complete-assembly.mp4" type="video/mp4">
+Your browser does not support embedded video.
 </video>
 
-### Engineering Analysis
+
+<h3>Engineering Analysis</h3>
 
 <div class="analysis-grid">
 
-  <div>
-    <img
-      src="/assets/images/hand-mixer/stress-plot.jpg"
-      alt="SolidWorks von Mises stress analysis"
-    >
-    <p><strong>Von Mises Stress</strong></p>
-  </div>
+<div class="analysis-item">
+<img src="/assets/images/hand-mixer/stress-plot.jpg"
+alt="SolidWorks von Mises stress analysis">
+<p><strong>Von Mises Stress Analysis</strong></p>
+</div>
 
-  <div>
-    <img
-      src="/assets/images/hand-mixer/displacement-plot.jpg"
-      alt="SolidWorks displacement analysis"
-    >
-    <p><strong>Displacement</strong></p>
-  </div>
+<div class="analysis-item">
+<img src="/assets/images/hand-mixer/displacement-plot.jpg"
+alt="SolidWorks displacement analysis">
+<p><strong>Displacement Analysis</strong></p>
+</div>
 
 </div>
 
-### Technical Drawings
+
+<h3>Technical Drawings</h3>
 
 <div class="portfolio-buttons">
 
-  <a class="portfolio-button primary"
-     href="/assets/files/hand-mixer/complete-assembly.pdf"
-     target="_blank">
-     Assembly Drawing
-  </a>
+<a class="portfolio-button primary"
+href="/assets/files/hand-mixer/complete-assembly.pdf"
+target="_blank">
+Assembly Drawing
+</a>
 
-  <a class="portfolio-button"
-     href="/assets/files/hand-mixer/beater-base.pdf"
-     target="_blank">
-     Beater Base Drawing
-  </a>
+<a class="portfolio-button"
+href="/assets/files/hand-mixer/beater-base.pdf"
+target="_blank">
+Beater Base Drawing
+</a>
 
-  <a class="portfolio-button"
-     href="/assets/files/hand-mixer/crank.pdf"
-     target="_blank">
-     Crank Drawing
-  </a>
+<a class="portfolio-button"
+href="/assets/files/hand-mixer/crank.pdf"
+target="_blank">
+Crank Drawing
+</a>
 
 </div>
 
----
+
+<hr>
+
 
 <a id="clemson-formula-sae"></a>
 
-## Clemson Formula SAE
+<h2>Clemson Formula SAE</h2>
 
-**Automotive Engineering • Powertrain • Mechanical Design**
+<div class="project-tags project-tags-detail">
+Automotive Engineering • Powertrain • Mechanical Design • Vehicle Development
+</div>
 
-I am involved with Clemson Formula SAE through the Powertrain Division.
 
-My experience includes exposure to:
+<h3>Overview</h3>
 
-- Automotive powertrain systems
-- Mechanical design
-- Vehicle development
-- Engineering collaboration
-- Design evaluation
-- Team-based problem solving
+<p>I am a member of Clemson Formula SAE's Powertrain Division, where I have the opportunity to apply automotive engineering concepts to the development of a competition vehicle.</p>
 
-Formula SAE gives me the opportunity to apply automotive engineering principles to the development of a competition vehicle.
+<p>The experience provides hands-on exposure to the engineering design process while working within a multidisciplinary student team.</p>
 
----
 
-## Technical Skills
+<h3>Areas of Experience</h3>
+
+<ul>
+<li>Automotive powertrain systems</li>
+<li>Mechanical design</li>
+<li>Vehicle development</li>
+<li>Engineering collaboration</li>
+<li>Design evaluation</li>
+<li>Team-based problem solving</li>
+<li>Applying classroom engineering concepts to a real vehicle platform</li>
+</ul>
+
+
+<h3>Technical Focus</h3>
 
 <div class="skill-list">
-  <span class="skill-tag">SolidWorks</span>
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">MuJoCo</span>
-  <span class="skill-tag">Git</span>
-  <span class="skill-tag">GitHub</span>
-  <span class="skill-tag">Computer Vision</span>
-  <span class="skill-tag">Mechanical Design</span>
-  <span class="skill-tag">CAD</span>
-  <span class="skill-tag">Simulation</span>
-  <span class="skill-tag">Automotive Engineering</span>
+<span class="skill-tag">Automotive Engineering</span>
+<span class="skill-tag">Powertrain</span>
+<span class="skill-tag">Mechanical Design</span>
+<span class="skill-tag">Vehicle Development</span>
+<span class="skill-tag">Engineering Collaboration</span>
 </div>
